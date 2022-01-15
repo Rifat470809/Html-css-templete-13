@@ -1,0 +1,430 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box{
+	background: #F7F5F1;
+}
+
+.menu{
+	height: 50px;
+	background: #333 ;
+	position: sticky;
+	top: 0px;
+}
+
+.menu ul{
+	list-style-type: none;
+}
+
+.menu ul li {
+	margin-left: 43px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	float: left;
+	font-size: 18px;
+	padding: 10px;
+	margin-top: 4px;
+	color: #fff;
+	width: 290px;
+	text-align: center;
+}
+
+
+.menu ul li a:hover{
+	background: #aaa;
+	color: #333;
+}
+
+/*----------------------------------*/
+
+
+.box-1{
+	height: 510px;
+	background: url(img/IMG_6570.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.text h2{
+	text-align: center;
+	font-size: 135px;
+	color: #fff;
+	margin-top: 95px;
+	font-weight: 300;
+}
+
+
+.Open-street{
+	display: flex;
+	justify-content: space-between;
+}
+
+.Open{
+	margin-top: 60px;
+	margin-left: 30px;
+}
+
+.Open h3{
+	font-size: 21px;
+	color: #fff;
+	background: #333;
+	padding: 2px 10px;
+}
+
+
+.street{
+	margin-top: 60px;
+	margin-right: 25px;
+}
+
+.street h3{
+	font-size: 21px;
+	color: #333;
+}
+
+
+/*--------------------------------*/
+
+.box-2{
+	text-align: center;
+	margin-top: 75px;
+}
+
+.box-2 h2{
+	font-size: 19px;
+	color: #fff;
+	background: #333;
+	padding: 2px 10px;
+	display: inline-block;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.box-2-1{
+	max-width: 700px;
+	margin: auto;
+	background: ;
+	height: 900px;
+}
+
+.box-2-2{
+	margin-top: 40px;
+	text-align: left;
+}
+
+.box-2-2 p{
+	margin-top: 25px;
+	font-size: 22px;
+	color: #0C0C0B;
+}
+
+.box-2-3{
+	background: #F1F1F1;
+	margin-top: 32px;
+	height: 150px;	
+	border-left: 9px solid #CCCCCC;
+	overflow: hidden;
+}
+
+.text-2 {
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 25px;
+}
+
+.text-2 i{
+	font-size: 23px;
+	color: #000000;
+}
+
+.text-2 p{
+	font-size: 20px;
+	margin-top: 14px;
+	color: #000000;
+}
+
+.box-3{
+	margin-top: 25px;
+}
+.box-3 img{
+  width: 700px;
+}
+
+
+.text-3{
+	margin-top: 10px;
+	text-align: left;
+}
+
+.text-3 h3{
+	font-size: 20px;
+	margin-top: 12px;
+	color: #000000;
+}
+
+.text-3 h3 span{
+	font-size: 20px;
+	color: #000000;
+	font-weight: 200;
+	word-spacing: 5px;
+}
+
+/*------------------------------*/
+
+.box-4{
+	width: 700px;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+.text-4{
+	text-align: center;
+	margin-top: 75px;
+}
+
+.text-4 h2{
+	font-size: 21px;
+	color: #fff;
+	background: #333;
+	padding: 2px 10px;
+	display: inline-block;
+	font-weight: 100;
+	letter-spacing: 5px;
+}
+
+.menu-2{
+	height: 45px;
+	background: #F7F5F1;
+	margin-top: 62px;	
+	box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.menu-2 ul{
+	list-style-type: none;
+}
+
+.menu-2 ul li {
+	margin-left: 20px;
+}
+
+.menu-2 ul li a{
+	text-decoration: none;
+	float: left;
+	font-size: 21px;
+	padding: 10px;
+	color: #000000;
+	width: 328px;
+	text-align: center;
+}
+
+
+.menu-2 ul li a:hover{
+	background: #aaa;
+	color: #333;
+}
+
+.box-4-2{
+	height: 700px;
+	background: #F7F5F1;
+	overflow: hidden;
+	margin-top: 6px;
+}
+
+.text-5{
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+
+.text-5 h2{
+	font-size: 30px;
+	color: #313130;
+	font-weight: 400;
+}
+
+
+.text-5 p{
+	font-size: 30px;
+	color: #757575;
+	margin-top: 30px;
+}
+
+
+.img{
+	margin-top: 30px;
+}
+
+.img img{
+	width: 700px;
+}
+
+
+/*-------------------------------*/
+
+
+.box-5{
+	width: 700px;
+	margin: auto;
+	overflow: hidden;
+	height: 1170px;
+}
+
+.text-6{
+	text-align: center;
+	margin-top: 75px;
+}
+
+.text-6 h2{
+	font-size: 21px;
+	color: #fff;
+	background: #333;
+	padding: 2px 10px;
+	display: inline-block;
+	font-weight: 100;
+	letter-spacing: 5px;
+}
+
+
+.box-5 h3{
+	margin-top: 60px;
+	font-size: 22px;
+	color: #000000;
+	font-weight: 400;
+}
+
+.img-2{
+	margin-top: 20px;
+}
+
+.img-2 img{
+	width: 700px;
+}
+
+.text-7{
+	margin-top: 15px;
+}
+
+.text-7 span{
+	background: #000;
+	color: #fff;
+}
+
+.text-7 p{
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
+.text-8{
+	margin-top: 20px;
+}
+
+.text-8 span{
+	font-size: 24px;
+	color: #000000;
+	font-weight: 400;
+}
+
+.text-8 p{
+	font-size: 20px;
+	word-spacing: 5px;
+	color: #000000;
+}
+
+
+.box-6{
+	margin-top: 20px;
+}
+
+.name input{
+	width: 700px;
+	padding: 15px 5px;
+	border: 0;
+	font-size: 20px;
+	font-weight: normal;
+	background: #fff;
+	border: 1px solid #aaa;
+}
+
+.how-many input{
+	width: 700px;
+	padding: 15px 5px;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 400;
+	border: 3px solid #aaa;
+	background: #fff;
+	border-radius: 2px;
+}
+
+
+.nombar input{
+	width: 700px;
+	padding: 15px 5px;
+	border: 0;	
+	margin-top: 15px;
+	font-size: 20px;
+	background: #fff;
+	border: 1px solid #aaa;
+}
+
+.Message input{
+	width: 700px;
+	padding: 15px 5px;
+	border: 0;	
+	margin-top: 15px;
+	font-size: 20px;
+	background: #fff;
+	border: 1px solid #aaa;
+}
+
+.btn{
+	margin-top: 35px;
+}
+
+.btn a{
+	text-decoration: none;
+	background: #000;
+	padding: 15px 17px;
+	color: #fff;
+}
+
+.btn a:hover{
+	background: #CCCCCC;
+	color: #000;
+}
+
+/*----------------------------*/
+
+.box-7{
+	background: #F1F1F1;
+	height: 150px;
+	overflow: hidden;
+}
+
+.box-7 h2{
+	margin-top: 55px;
+	text-align: center;
+	font-size: 26px;
+}
+
+.box-7 a{
+	color: #000;
+	font-size: 25px
+}
+
+.box-7 a:hover{
+	color: green;
+}
+
+
+
+
+
